@@ -1,0 +1,16 @@
+{
+  "name": "site-audit",
+  "version": "1.0.0",
+  "description": "Free zero-dependency website auditor — SEO, speed and mobile checks with a scored report.",
+  "type": "module",
+  "bin": { "site-audit": "./audit.mjs" },
+  "main": "audit.mjs",
+  "scripts": {
+    "start": "node audit.mjs"
+  },
+  "keywords": ["seo", "audit", "website", "cli", "performance", "accessibility"],
+  "author": "Farmoz",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "dependencies": {}
+}
