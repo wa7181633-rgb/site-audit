@@ -1,6 +1,6 @@
 # site-audit
 
-A free website auditor that runs in one command. **Zero dependencies.** Checks the things that actually cost you customers: speed, SEO basics, mobile readiness and social previews — then gives you a score out of 100 and a prioritised fix list.
+A free website auditor that runs in **one command**. Zero dependencies. Checks the things that actually cost you customers — speed, SEO basics, mobile readiness and social previews — then gives you a score out of 100 and a prioritised fix list.
 
 ```bash
 node audit.mjs example.com
@@ -23,7 +23,7 @@ https://example.com/
 
 Most small-business sites lose enquiries for boring reasons: a missing meta description, no mobile viewport, images without alt text, a 4 MB homepage. `site-audit` finds them in 2 seconds, for free, with no signup.
 
-**Run it before you hire anyone — including me.** If your current site scores badly, that's the work to do first.
+**Run it before you hire anyone — including me.** If your current site scores badly, that’s the work to do first.
 
 ## Install
 
@@ -100,6 +100,12 @@ Score = weighted pass rate. Nothing is sent anywhere: the only network request i
 - [ ] Broken-link crawler across internal pages
 
 Ideas and pull requests welcome.
+
+## Need the fixes done for you?
+
+I build the exact kind of fast, conversion-focused sites that score high on this tool.
+
+→ [WhatsApp](https://wa.me/923122581354) or email farmoz98@gmail.com
 
 ## License
 
