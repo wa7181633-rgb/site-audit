@@ -30,7 +30,7 @@ Most small-business sites lose enquiries for boring reasons: a missing meta desc
 Nothing to install.
 
 ```bash
-git clone https://github.com/farmoz/site-audit
+git clone https://github.com/wa7181633-rgb/site-audit
 cd site-audit
 node audit.mjs yourdomain.com
 ```
