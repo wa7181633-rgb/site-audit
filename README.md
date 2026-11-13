@@ -3,6 +3,8 @@
 A free website auditor that runs in **one command**. Zero dependencies. Checks the things that actually cost you customers — speed, SEO basics, mobile readiness and social previews — then gives you a score out of 100 and a prioritised fix list.
 
 ```bash
+npx site-audit example.com
+# or
 node audit.mjs example.com
 ```
 
@@ -27,12 +29,19 @@ Most small-business sites lose enquiries for boring reasons: a missing meta desc
 
 ## Install
 
-Nothing to install.
+### Option 1 — Run without installing (recommended)
 
 ```bash
 git clone https://github.com/wa7181633-rgb/site-audit
 cd site-audit
 node audit.mjs yourdomain.com
+```
+
+### Option 2 — Global install (after publishing to npm)
+
+```bash
+npm install -g site-audit
+site-audit yourdomain.com
 ```
 
 Requires Node.js 18+ (uses the built-in `fetch`).
@@ -105,7 +114,9 @@ Ideas and pull requests welcome.
 
 I build the exact kind of fast, conversion-focused sites that score high on this tool.
 
-→ [WhatsApp](https://wa.me/923122581354) or email farmoz98@gmail.com
+**Pricing starts at $149** for a complete landing page.
+
+→ [WhatsApp](https://wa.me/923122581354) · [Portfolio](https://wa7181633-rgb.github.io/farmoz-site/) · Email: farmoz98@gmail.com
 
 ## License
 
