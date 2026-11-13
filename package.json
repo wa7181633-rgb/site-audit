@@ -1,16 +1,39 @@
 {
   "name": "site-audit",
   "version": "1.0.0",
-  "description": "Free zero-dependency website auditor — SEO, speed and mobile checks with a scored report.",
+  "description": "Free zero-dependency website auditor — SEO, speed and mobile checks with a scored report. One command.",
   "type": "module",
-  "bin": { "site-audit": "./audit.mjs" },
+  "bin": {
+    "site-audit": "./audit.mjs"
+  },
   "main": "audit.mjs",
   "scripts": {
-    "start": "node audit.mjs"
+    "start": "node audit.mjs",
+    "test": "node audit.mjs example.com"
   },
-  "keywords": ["seo", "audit", "website", "cli", "performance", "accessibility"],
-  "author": "Farmoz",
+  "keywords": [
+    "seo",
+    "audit",
+    "website",
+    "cli",
+    "performance",
+    "accessibility",
+    "meta",
+    "open-graph",
+    "mobile"
+  ],
+  "author": "Farmoz <farmoz98@gmail.com>",
   "license": "MIT",
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wa7181633-rgb/site-audit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wa7181633-rgb/site-audit/issues"
+  },
+  "homepage": "https://github.com/wa7181633-rgb/site-audit#readme",
   "dependencies": {}
 }
